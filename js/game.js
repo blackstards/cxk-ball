@@ -113,7 +113,7 @@ class Game {
     // 绘制提示文字
     this.context.font = '32px Microsoft YaHei'
     this.context.fillStyle = '#000'
-    this.context.fillText('CXK，通关！总分：' + globalScore, 308, 226)
+    this.context.fillText('WJR，通关！总分：' + globalScore, 308, 226)
 	$("#ballspeedset").removeAttr("disabled");
 	// audio.pause();
 	globalScore = 0;
